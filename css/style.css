@@ -42,6 +42,9 @@ section p {
     display: none;
   }
 }
+.topnav__open[aria-expanded=true] + .topnav__menu {
+  translate: 0;
+}
 .topnav__close {
   display: block;
   margin-inline-start: auto;

@@ -1,5 +1,7 @@
 $primary-color: rgb(94, 94, 230);
 
+// Project General Styling
+
 * {
     font-family: sans-serif;
     font-weight: bold;
@@ -28,6 +30,7 @@ section {
     }
 }
 
+// TopNav Menu Styling
 .topnav {
     display: flex;
     justify-content: space-between;
@@ -42,6 +45,12 @@ section {
 
         @media (width >= 40em) {
             display: none;
+        }
+    }
+
+    &__open[aria-expanded='true'] {
+        + .topnav__menu {
+            translate: 0;
         }
     }
 
