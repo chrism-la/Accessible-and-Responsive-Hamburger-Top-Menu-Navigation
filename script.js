@@ -20,5 +20,6 @@ function closeMobileMenu() {
     btnOpen.setAttribute('aria-expanded', 'false');
 }
 
+setupTopNav(media);
 btnOpen.addEventListener('click', openMobileMenu);
 btnClose.addEventListener('click', closeMobileMenu);
