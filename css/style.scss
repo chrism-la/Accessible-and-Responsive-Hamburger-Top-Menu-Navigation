@@ -1,5 +1,9 @@
+$primary-color: rgb(94, 94, 230);
+
 * {
     font-family: sans-serif;
+    font-weight: bold;
+    font-size: large;
     color: white;
 }
 
@@ -31,12 +35,25 @@ section {
     padding-block: 1.5rem;
     margin: 1.5rem;
 
+    &__menu {
+        @media (width < 40em) {
+            background-color: $primary-color;
+            position: fixed;
+            inset: 0;
+            padding: 1.5rem;
+        }
+    }
+
     &__links {
         margin: 0;
         padding: 0;
         display: flex;
         gap: 1rem;
         align-items: center;
+
+        @media (width < 40em) {
+            flex-direction: column;
+        }
     }
 
     &__item {
