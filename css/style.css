@@ -28,6 +28,7 @@ section p {
   justify-content: space-between;
   align-items: center;
   padding-block: 1.5rem;
+  margin: 1.5rem;
 }
 .topnav__links {
   margin: 0;
