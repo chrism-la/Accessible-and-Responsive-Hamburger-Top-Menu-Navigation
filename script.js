@@ -15,6 +15,7 @@ function setupTopNav(e) {
         // is tablet or desktop
         console.log('is desktop');
         topNavMenu.removeAttribute('inert');
+        closeMobileMenu();
     }
 }
 
