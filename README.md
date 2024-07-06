@@ -49,9 +49,9 @@ There is alot that goes into building a component and starting with a small proj
 
 ### Built With
 
-* [![HTML]
-* [![Sass][SCSS]][https://sass-lang.com/]
-* [![JavaScript]
+* HTML
+* SASS
+* JavaScript
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,13 +104,13 @@ Christopher Morales - chrismorales.la@gmail.com
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/chrism-la/Accessible-and-Responsive-Hamburger-Top-Menu-Navigation.svg?style=for-the-badge
 [contributors-url]: https://github.com/chrism-la/Accessible-and-Responsive-Hamburger-Top-Menu-Navigation/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/chrism-la/Accessible-and-Responsive-Hamburger-Top-Menu-Navigation.svg?style=for-the-badge
 [forks-url]: https://github.com/chrism-la/Accessible-and-Responsive-Hamburger-Top-Menu-Navigation/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/chrism-la/Accessible-and-Responsive-Hamburger-Top-Menu-Navigation.svg?style=for-the-badge
 [stars-url]: https://github.com/chrism-la/Accessible-and-Responsive-Hamburger-Top-Menu-Navigation/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/chrism-la/Accessible-and-Responsive-Hamburger-Top-Menu-Navigation.svg?style=for-the-badge
 [issues-url]: https://github.com/chrism-la/Accessible-and-Responsive-Hamburger-Top-Menu-Navigation/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/chrism-la/Accessible-and-Responsive-Hamburger-Top-Menu-Navigation.svg?style=for-the-badge
 [license-url]: https://github.com/chrism-la/Accessible-and-Responsive-Hamburger-Top-Menu-Navigation/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/chrism-la
