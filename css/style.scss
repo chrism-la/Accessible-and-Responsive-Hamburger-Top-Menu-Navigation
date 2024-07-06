@@ -39,6 +39,10 @@ section {
         background: none;
         border: none;
         padding: 0;
+
+        @media (width >= 40em) {
+            display: none;
+        }
     }
 
     &__close {

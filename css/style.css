@@ -37,6 +37,11 @@ section p {
   border: none;
   padding: 0;
 }
+@media (width >= 40em) {
+  .topnav button {
+    display: none;
+  }
+}
 .topnav__close {
   display: block;
   margin-inline-start: auto;
