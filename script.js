@@ -2,6 +2,7 @@ const btnOpen = document.querySelector('#btnOpen');
 const btnClose = document.querySelector('#btnClose');
 const media = window.matchMedia('(width < 40em)');
 const topNavMenu = document.querySelector('.topnav__menu');
+const main = document.querySelector('main');
 
 function setupTopNav(e) {
     if (e.matches) {
@@ -20,11 +21,13 @@ function openMobileMenu() {
     btnOpen.setAttribute('aria-expanded', 'true');
     topNavMenu.removeAttribute('inert');
     topNavMenu.removeAttribute('style');
+    main.setAttribute('inert', '');
 }
 
 function closeMobileMenu() {
     btnOpen.setAttribute('aria-expanded', 'false');
     topNavMenu.setAttribute('inert', '');
+    main.removeAttribute('inert');
 
     setTimeout(() => {
         topNavMenu.style.transition = 'none';
