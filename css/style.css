@@ -51,6 +51,8 @@ section p {
     position: fixed;
     inset: 0;
     padding: 1.5rem;
+    translate: 100vw 0;
+    transition: translate 0.5s ease-in-out;
   }
 }
 .topnav__links {
