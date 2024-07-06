@@ -8,6 +8,7 @@ function setupTopNav(e) {
         //  is mobile
         console.log('is mobile');
         topNavMenu.setAttribute('inert', '');
+        topNavMenu.style.transition = 'none';
     } else {
         // is tablet or desktop
         console.log('is desktop');
@@ -18,6 +19,7 @@ function setupTopNav(e) {
 function openMobileMenu() {
     btnOpen.setAttribute('aria-expanded', 'true');
     topNavMenu.removeAttribute('inert');
+    topNavMenu.removeAttribute('style');
 }
 
 function closeMobileMenu() {
