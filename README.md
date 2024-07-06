@@ -4,7 +4,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][www.linkedin.com/in/chrism-la]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
@@ -102,7 +102,7 @@ Christopher Morales - chrismorales.la@gmail.com
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/chrism-la/Accessible-and-Responsive-Hamburger-Top-Menu-Navigation.svg?style=for-the-badge
 [contributors-url]: https://github.com/chrism-la/Accessible-and-Responsive-Hamburger-Top-Menu-Navigation/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
 [forks-url]: https://github.com/chrism-la/Accessible-and-Responsive-Hamburger-Top-Menu-Navigation/network/members
