@@ -25,6 +25,10 @@ function openMobileMenu() {
 function closeMobileMenu() {
     btnOpen.setAttribute('aria-expanded', 'false');
     topNavMenu.setAttribute('inert', '');
+
+    setTimeout(() => {
+        topNavMenu.style.transition = 'none';
+    }, 500);
 }
 
 setupTopNav(media);
