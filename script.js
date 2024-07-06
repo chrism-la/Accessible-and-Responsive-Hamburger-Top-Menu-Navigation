@@ -17,10 +17,12 @@ function setupTopNav(e) {
 
 function openMobileMenu() {
     btnOpen.setAttribute('aria-expanded', 'true');
+    topNavMenu.removeAttribute('inert');
 }
 
 function closeMobileMenu() {
     btnOpen.setAttribute('aria-expanded', 'false');
+    topNavMenu.setAttribute('inert', '');
 }
 
 setupTopNav(media);
