@@ -25,6 +25,7 @@ function openMobileMenu() {
     topNavMenu.removeAttribute('style');
     main.setAttribute('inert', '');
     bodyScrollLockUpgrade.disabledBodyScroll(body);
+    btnClose.focus();
 }
 
 function closeMobileMenu() {
@@ -32,6 +33,7 @@ function closeMobileMenu() {
     topNavMenu.setAttribute('inert', '');
     main.removeAttribute('inert');
     bodyScrollLockUpgrade.enableBodyScroll(body);
+    btnOpen.focus();
 
     setTimeout(() => {
         topNavMenu.style.transition = 'none';
