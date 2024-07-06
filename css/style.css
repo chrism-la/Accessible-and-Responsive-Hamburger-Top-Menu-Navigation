@@ -1,0 +1,26 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.89)), url("../images/tobias-van-schneider-lHGeqh3XhRY-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+main {
+  margin: 0px 400px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section p {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
