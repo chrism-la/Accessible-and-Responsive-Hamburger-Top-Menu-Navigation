@@ -94,7 +94,7 @@ Christopher Morales - chrismorales.la@gmail.com
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [Body Scroll Lock Upgarde Package](https://github.com/rick-liruixin/body-scroll-lock-upgrade)
+* [Body Scroll Lock Upgrade Package](https://github.com/rick-liruixin/body-scroll-lock-upgrade)
 * [Coder Coder Tutorial Video](https://youtu.be/pBv7igaxfQE?si=sEUnuot12xura27j)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
