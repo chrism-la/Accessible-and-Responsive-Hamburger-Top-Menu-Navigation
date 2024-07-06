@@ -32,6 +32,19 @@ section p {
   padding-block: 1.5rem;
   margin: 1.5rem;
 }
+.topnav button {
+  background: none;
+  border: none;
+  padding: 0;
+}
+.topnav__close {
+  display: block;
+  margin-inline-start: auto;
+  margin-block-end: 8rem;
+}
+.topnav__close img {
+  width: 3.5rem;
+}
 @media (width < 40em) {
   .topnav__menu {
     background-color: rgb(94, 94, 230);

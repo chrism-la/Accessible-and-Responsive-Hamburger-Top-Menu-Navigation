@@ -35,6 +35,21 @@ section {
     padding-block: 1.5rem;
     margin: 1.5rem;
 
+    button {
+        background: none;
+        border: none;
+        padding: 0;
+    }
+
+    &__close {
+        display: block;
+        margin-inline-start: auto;
+        margin-block-end: 8rem;
+        img {
+            width: 3.5rem;
+        }
+    }
+
     &__menu {
         @media (width < 40em) {
             background-color: $primary-color;
